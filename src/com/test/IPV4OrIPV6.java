@@ -6,7 +6,7 @@ import java.util.List;
 public class IPV4OrIPV6 {
 
 	public static void main(String[] args) {
-		String[] arr = {  "this line has junt text", "121.18.19.20", "1050:1000:1000:a000:5:600:300c:326b" };
+		String[] arr = {  "this line has junk text", "121.18.19.20", "1050:1000:1000:a000:5:600:300c:326b" };
 		
 		String[] response = check_IP(arr);
 		for (int i = 0; i < response.length; i++) {
